@@ -108,10 +108,11 @@
 
                 fixed3 specCol = _LightSpecColor.rgb * _SpecMulti * lightMapCol.r;
                 specCol = ((int)check2 != 0) ? fixed3(0, 0, 0) : specCol;
+                // return fixed4(diffuseCol.rgb + specCol,1);
+                fixed3 finCol = lerp(diffuseCol.rgb, mainTexCol.rgb, mainTexCol.a);
+                return fixed4(finCol + specCol, 1);
 
-                fixed3 finalCol = lerp(diffuseCol, mainTexCol.rgb, mainTexCol.a) + specCol;
-
-				return fixed4(diffuseCol.rgb,1);
+				
 			}
 			ENDCG
 		}

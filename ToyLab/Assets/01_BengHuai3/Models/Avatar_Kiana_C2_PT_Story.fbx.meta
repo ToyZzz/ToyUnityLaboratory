@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e542bfc1aa0ff6440ba75ad28bc288f7
+guid: 35667038179188e459471d00c2a990a6
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -236,7 +236,42 @@ ModelImporter:
     13700008: Face_0
     13700010: Hair_0
     13700012: Mouth_0
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Avatar_Kiana_C2_Material_Body
+    second: {fileID: 2100000, guid: 79de7bdc55c02db4c9d7709e48435891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Avatar_Kiana_C2_Material_Hair
+    second: {fileID: 2100000, guid: 3a013253b3fd77040aef8c74b181f04e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Avatar_Kiana_C2_Material_Skin
+    second: {fileID: 2100000, guid: 8ab6aa0971e257b4a938289c682486b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Avatar_Kiana_Face_Empty
+    second: {fileID: 2100000, guid: 5c84249cf47cc56488eb7ae9495e9129, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Avatar_Kiana_LeftEye
+    second: {fileID: 2100000, guid: e425ad29b27a58c468542b342263dcd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Avatar_Kiana_Mouth
+    second: {fileID: 2100000, guid: 2149f7fea39b8f74f97da3762c34b9f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Avatar_Kiana_RightEye
+    second: {fileID: 2100000, guid: cc9339226bab45948a19f5ad16c2c49c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
